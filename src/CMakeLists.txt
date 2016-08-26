@@ -7,7 +7,6 @@ message("${PROJECT_NAME}")
 
 # Add headers and source files here
 #-------------------
-cuda_add_executable(main main.cu)
 
 # OpenCV
 find_package(OpenCV REQUIRED)
@@ -18,6 +17,8 @@ find_package(CUDA REQUIRED)
 if(${CUDA_FOUND})
 	message("Cuda found")
 endif()
+
+cuda_add_executable(main main.cu) # Add cuda executable only works after finding cuda
 
 ## Linker
 ##-------------------
