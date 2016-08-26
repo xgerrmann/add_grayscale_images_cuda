@@ -1,8 +1,8 @@
 # add_grayscale_images_cuda
 Code for combining two grayscale images with CUDA programming.
 This script takes two images:
-![Original image](media/im0.png)
-![Original image](media/im1.png)
+![Original image0](media/im0.png)
+![Original image1](media/im1.png)
 
 And results in the combined image:
-![Original image](im_out.png).
+![Resulting image](media/im_out.png).
